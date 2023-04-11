@@ -1,7 +1,9 @@
 import "../index.css";
 import h1 from "./bg/2 copy.jpg";
 import {Link} from "react-router-dom";
-
+import { Button } from 'primereact/button'; 
+import "primereact/resources/themes/lara-light-indigo/theme.css";     
+import "primereact/resources/primereact.min.css";
 
 export const Login = () => {
     return(
@@ -16,7 +18,7 @@ export const Login = () => {
                         <input type="text" name="username" placeholder="Username"/>
                         <input type="password" name="password" placeholder="Password"/>
                         <Link to="/home">
-                            <button type="submit">Login</button>
+                            <Button label="Login"/>
                         </Link>
                     </div>
                 </form>
