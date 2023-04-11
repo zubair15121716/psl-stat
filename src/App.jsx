@@ -1,12 +1,12 @@
-import { Login } from "./pages/login";
+import {Routes} from "../allroutes/routers.jsx"
 
 function App() {
   return (
     <>
-    <Login/>
+      <Routes/>
     </>
-  )
-    
+  );
 }
 
 export default App
+

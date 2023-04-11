@@ -9,19 +9,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #33d57b;
-  
+  background-color: #27afa4;
+  z-index: 1;
 }
 img{
   object-fit: cover;
-  overflow: hidden;
   width: 100%;
   height: 100vh;
   position: absolute;
   
 }
 .loginp{
-  z-index: 1;
+  z-index: 2;
   width: 670px;
   height: 100vh;
   display: flex;
@@ -73,13 +72,74 @@ button{
 .fontl{
   font-family: 'Monoton' !important;
   font-size: 50px;
-  color:#33d57b;
+  color:#000000;
 }
 
 .form1{
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
-  opacity: 0.9;
+  opacity: 1;
 }
 
+.homep{
+  background-color: #fff;
+  z-index: 2;
+  width: 1212px;
+  height: 89vh;
+  display: flex;
+  font-family: "Montserrat";
+  border-radius: 24px;
+  background-blend-mode: darken;
+  flex-direction: column;
+}
+
+.form2{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.nav1{
+  margin-top: 20px;
+}
+
+.nav1:hover{
+  transform: scale(1.3);
+  transition: 0.1s ease-in-out;
+  
+}
+
+.des{
+  margin-top: 50px;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+
+.des p{
+  text-align: justify;
+  margin-left: 30px;
+  
+}
+
+.head{
+  color: #19f39b;
+  font-family: 'Zilla Slab Highlight';
+}
+
+#h2{
+  width: 50%;
+  object-fit: contain;
+  height: 60%;
+  margin-left: 500px;
+}
+
+.para{
+  width: 500px;
+  margin-top: 100px;
+}
+
+.wrapper a{
+  text-decoration: none;
+}
