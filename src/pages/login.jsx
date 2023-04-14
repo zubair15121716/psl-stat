@@ -1,11 +1,14 @@
 import "../index.css";
 import h1 from "./bg/2 copy.jpg";
 import {Link} from "react-router-dom";
-import { Button } from 'primereact/button'; 
-import "primereact/resources/themes/lara-light-indigo/theme.css";     
-import "primereact/resources/primereact.min.css";
+import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
+import { useState } from "react";
 
 export const Login = () => {
+    const [value1, setValue1] = useState('');
+    const [value2, setValue2] = useState('');
+
     return(
         <div className="wrapper">
             <img src={h1} alt="" className="loginimg"/>
@@ -15,10 +18,10 @@ export const Login = () => {
                 <hr/>
                 <form>
                     <div className="three">
-                        <input type="text" name="username" placeholder="Username"/>
-                        <input type="password" name="password" placeholder="Password"/>
+                        <TextField id="user" label="Username" variant="outlined" />
+                        <TextField id="user" label="Password" variant="outlined" />
                         <Link to="/home">
-                            <Button label="Login"/>
+                            <Button color="secondary">Secondary</Button> 
                         </Link>
                     </div>
                 </form>

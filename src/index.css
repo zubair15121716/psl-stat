@@ -12,7 +12,7 @@
   background-color: #27afa4;
   z-index: 1;
 }
-img{
+.loginimg{
   object-fit: cover;
   width: 100%;
   height: 100vh;
@@ -79,13 +79,17 @@ input{
 .homep{
   background-color: #fff;
   z-index: 2;
-  width: 1212px;
-  height: 89vh;
+  width: 780px;
+  height: 86vh;
   display: flex;
   font-family: "Montserrat";
   border-radius: 24px;
   background-blend-mode: darken;
   flex-direction: column;
+}
+
+#bt01{
+  width: 78px;
 }
 
 .form2{
@@ -142,14 +146,24 @@ input{
   width: 50%;
   object-fit: contain;
   height: 60%;
-  margin-left: 450px;
+  margin-top: 90px;
 }
 
 .para{
-  width: 500px;
+  width: 300px;
   margin-top: 100px;
 }
 
 .wrapper a{
   text-decoration: none;
+  color: black;
+}
+
+.p-inputtext {
+  padding:10px 20px !important;
+  margin: 12px 0px !important;
+}
+
+#id{
+  object-fit: cover;
 }
