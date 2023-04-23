@@ -4,6 +4,7 @@ import {Login} from "../src/pages/login.jsx";
 import {Teams} from "../src/pages/teams.jsx";
 import { IntroTeams } from "../src/pages/teamcarosuel.jsx";
 
+
 export const Routes = () => {
     return(
         <Router>
