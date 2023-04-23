@@ -125,8 +125,6 @@ input{
 }
 
 .des{
-  margin-top: 50px;
-  padding-bottom: 40px;
   display: flex;
 }
 
@@ -152,6 +150,7 @@ input{
 .para{
   width: 300px;
   margin-top: 100px;
+  margin-left: 50px;
 }
 
 .wrapper a{
