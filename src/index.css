@@ -141,7 +141,7 @@ input{
 }
 
 #h2{
-  width: 50%;
+  width: 60%;
   object-fit: contain;
   height: 60%;
   margin-top: 90px;
@@ -150,7 +150,7 @@ input{
 .para{
   width: 300px;
   margin-top: 100px;
-  margin-left: 50px;
+  margin-left: 12px;
 }
 
 .wrapper a{
