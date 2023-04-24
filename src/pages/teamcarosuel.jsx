@@ -21,17 +21,18 @@ export const IntroTeams = () => {
                     <Link to='/teams' className='nav1'>
                         <h3>Teams</h3>
                     </Link>
-                    <a className="nav1"><h3>Players</h3></a>
+                    <Link to='/players' className='nav1'><h3>Players</h3></Link>
                     <a className="nav1"><h3>About</h3></a>
             </div>
             <Stack direction="row" spacing={2}>
-                <Link to="/teams"><Button variant="outlined"  sx={{ margin: 1 }}color="success">Winners</Button> </Link>
-                <Link to="/home"><Button variant="outlined" sx={{ margin: 1 }} color="success">Highest Totals</Button> </Link>
+                <Link to="/introTeams"><Button variant="outlined"  sx={{ margin: 1 }}color="success">Champions</Button> </Link>
+                <Link to="/teamstats"><Button variant="outlined" sx={{ margin: 1 }} color="success">Team Stats</Button> </Link>
+                <Link to="/hightotal"><Button variant="outlined" sx={{ margin: 1 }} color="success">Highest Totals</Button> </Link>
             </Stack>
             <h1 id="heading1">Champions of PSL &#127881; </h1>
             <Carousel>
             { 
-                Pslchamp.map( (params) => <Item im={params}/>)
+                Pslchamp.map( (params) => <Item score={false} im={params}/>)
             }
             </Carousel>
         </div>

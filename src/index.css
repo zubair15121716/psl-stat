@@ -12,6 +12,17 @@
   background-color: #27afa4;
   z-index: 1;
 }
+
+.wrapperlog{
+  width: 100%;
+  height: 100vh;    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #19f39b;
+  z-index: 1;
+}
+
 .loginimg{
   object-fit: cover;
   width: 100%;
@@ -80,7 +91,7 @@ input{
   background-color: #fff;
   z-index: 2;
   width: 780px;
-  height: 86vh;
+  height: 100vh;
   display: flex;
   font-family: "Montserrat";
   border-radius: 24px;
@@ -166,3 +177,4 @@ input{
 #id{
   object-fit: cover;
 }
+

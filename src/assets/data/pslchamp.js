@@ -62,4 +62,53 @@ export const Pslchamp = [
         
     }
 ]
+
+export const PslTeams = [
+    {
+        id:1,
+        Match:"88",	
+        Team:"Islamabad United",
+        img: isl ,
+        won: "47",
+        lost: "40"
+       
+    },
+    {
+        id:2,
+        Match:"93",	
+        Team:"Peshawar Zalmi",
+        img: pz ,
+        won: "49",
+        lost: "42"
+    },
+    {
+
+        id:3,
+        Match:"85",	
+        Team:"Lahore Qalandars	",
+        img: lq,
+        won: '40',
+        lost: '42'
+       
+    },
+    {
+
+        id:4,
+        Match:"82",		
+        Team:"Quetta Gladiator",
+        img: qg ,
+        won: '38',
+        lost: '43'
+       
+    },
+    {
+        id:5,
+        Match:"85",	
+        Team:"Karachi Kings",
+        img: kk ,
+        won: '33',
+        lost: '49'
+       
+    }
+]
 	

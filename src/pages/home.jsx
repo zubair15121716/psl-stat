@@ -8,7 +8,6 @@ import CardContent from '@mui/material/CardContent';
 import { motion } from "framer-motion";
 import React from "react";
 
-
 const card = (
     <React.Fragment>
       <CardContent>
@@ -33,7 +32,7 @@ export const Home = () => {
                         <Link to='/teams' className='nav1'>
                         <h3>Teams</h3>
                         </Link>
-                        <a className="nav1"><h3>Players</h3></a>
+                        <Link to='/players' className='nav1'><h3>Players</h3></Link>
                         <a className="nav1"><h3>About</h3></a>
                         <Avatar alt="Remy Sharp" src={h2} />
                 </div>

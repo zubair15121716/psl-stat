@@ -10,23 +10,23 @@ import { motion } from "framer-motion";
 const columns = [
     {field: 'id', headerName: 'S No', width: 90 },
     {
+      field: 'img',
+      headerName: '',
+      width: 100,
+      renderCell: (params) => <img id={"img"} height={50} src={params.value} />
+    },
+    {
       field: 'Team',
       headerName: 'Team',
       width: 150,
-      editable: true,
+      editable: false,
     },
     {
       field: 'Year',
       headerName: 'Season',
       width: 150,
-      editable: true,
+      editable: false,
     },
-    {
-      field: 'img',
-      headerName: 'Logo',
-      width: 100,
-      renderCell: (params) => <img id={"img"} height={50} src={params.value} />
-    }
 ];
 
 
@@ -45,12 +45,13 @@ export const Teams = () => {
                     <Link to='/teams' className='nav1'>
                         <h3>Teams</h3>
                     </Link>
-                    <a className="nav1"><h3>Players</h3></a>
+                    <Link to='/players' className='nav1'><h3>Players</h3></Link>
                     <a className="nav1"><h3>About</h3></a>
             </div>
             <Stack direction="row" spacing={2}>
                 <Link to="/introTeams"><Button variant="outlined"  sx={{ margin: 1 }}color="success">Champions</Button> </Link>
-                <Link to="/home"><Button variant="outlined" sx={{ margin: 1 }} color="success">Highest Totals</Button> </Link>
+                <Link to="/teamstats"><Button variant="outlined" sx={{ margin: 1 }} color="success">Team Stats</Button> </Link>
+                <Link to="/hightotal"><Button variant="outlined" sx={{ margin: 1 }} color="success">Highest Totals</Button> </Link>
             </Stack>
             <h1 id="heading1">Winners</h1>
             <motion.div initial={{opacity: 0}}
