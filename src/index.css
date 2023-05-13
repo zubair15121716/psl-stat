@@ -39,9 +39,7 @@
   justify-content: center;
   flex-direction: row;
   font-family: "Montserrat";
-
   background-blend-mode: darken;
-
 }
 h1{
   font-size: 5rem;
@@ -90,8 +88,8 @@ input{
 .homep{
   background-color: #fff;
   z-index: 2;
-  width: 780px;
-  height: 100vh;
+  width: 75vw;
+  height: 80vh;
   display: flex;
   font-family: "Montserrat";
   border-radius: 24px;
