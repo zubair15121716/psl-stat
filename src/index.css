@@ -88,8 +88,8 @@ input{
 .homep{
   background-color: #fff;
   z-index: 2;
-  width: 75vw;
-  height: 80vh;
+  width: 780px;
+  height: 100vh;
   display: flex;
   font-family: "Montserrat";
   border-radius: 24px;
