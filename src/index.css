@@ -38,7 +38,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  font-family: "Montserrat,Arial";
+  font-family: "Montserrat","Arial";
   background-blend-mode: darken;
 }
 h1{
