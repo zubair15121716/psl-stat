@@ -1,4 +1,4 @@
-# psl-stat
+# PSL Stats Website
 
 A simple and interactive view of Basic PSL Stats using ReactJS and Material UI.
 
