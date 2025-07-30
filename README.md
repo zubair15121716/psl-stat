@@ -1,6 +1,6 @@
 # PSL Stats Website
 
-A simple and interactive view of Basic PSL Stats using ReactJS and Material UI.
+A simple and interactive view of Basic PSL Stats using ReactJS and Material UI with ***Sliders , Tables and Animations***.
 
 
 <img width="1599" height="737" alt="image" src="https://github.com/user-attachments/assets/dc03abc5-1248-4395-8316-ea1529ed1968" />
